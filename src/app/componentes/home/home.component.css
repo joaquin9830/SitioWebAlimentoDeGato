@@ -42,10 +42,35 @@ button:hover {
     border: 2px solid rgb(140, 102, 175);
     cursor: pointer;
 }
-.img{
+.img1{
     min-width:10px;
     max-width:30px;
     margin-bottom: 3px;
     margin-left: 5px;
     
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 1px solid #eee;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 4px;
+      
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding:9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:rgb(155, 70, 224);
+    background-color:rgb(216, 209, 216);
 }
