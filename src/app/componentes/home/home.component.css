@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+}
+
+#hero{
+    background-image: url("../../../assets/images/hero.jpg");
+    height: 90vh;
+    width:100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding:0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color: rgb(220, 55, 253);
+    
+}
+
+button {
+    background: rgb(185, 144, 204);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+button:hover {
+    background: rgb(161, 59, 230);
+    border: 2px solid rgb(140, 102, 175);
+    cursor: pointer;
+}
+.img{
+    min-width:10px;
+    max-width:30px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    
+}
