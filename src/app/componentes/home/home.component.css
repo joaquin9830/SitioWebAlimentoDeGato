@@ -36,7 +36,14 @@ button {
     transition: .4s;
     
 }
-
+.section-p1 {
+    padding: 40px 80px;
+  }
+  
+  .section-m1 {
+    margin: 40px 0;
+  }
+  
 button:hover {
     background: rgb(161, 59, 230);
     border: 2px solid rgb(140, 102, 175);
@@ -50,14 +57,19 @@ button:hover {
     
 }
 
+#feature{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
 #feature .fe-box {
     width: 180px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
     border: 1px solid #eee;
-    margin-left: 30px;
-    margin-top: 30px;
     border-radius: 4px;
       
 }
@@ -66,11 +78,140 @@ button:hover {
     box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
 }
 
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
 #feature .fe-box h6{
     display: inline-block;
     padding:9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color:rgb(155, 70, 224);
-    background-color:rgb(216, 209, 216);
+    color:rgb(70, 193, 224);
+    background-color:rgb(113, 129, 223);
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: rgb(195, 235, 168);
+}
+#feature .fe-box:nth-child(3) h6 {
+    background-color: rgb(173, 235, 219);
+}
+#feature .fe-box:nth-child(4) h6 {
+    background-color: #eee;
+}
+#feature .fe-box:nth-child(5) h6 {
+    background-color: rgb(219, 180, 236);
+}
+#feature .fe-box:nth-child(6) h6 {
+    background-color: #eee;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    flex-wrap: wrap; 
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.226);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: rgb(117, 116, 116);
+    font-size: 12px ;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: rgb(14, 13, 13);
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color:rgb(247, 185, 52)
+}
+
+#product1 .pro .des h4{
+    padding-top:7px;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(14, 15, 15)
+}
+
+#product1 .pro .cart{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    color: rgb(199, 119, 231);
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#banner{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../../../assets/images/Banner.webp");
+    width: 100%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#banner h4{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+}
+
+#banner h2{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+    padding:10px 0;
+}
+
+#banner h2 span{
+    color: rgb(255, 14, 243);
+   
 }
